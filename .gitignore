@@ -1,0 +1,39 @@
+# ROS 2 Build & Install Artifacts
+build/
+install/
+log/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+junit/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+#*#
+
+# Local Agent & Tooling configs
+.agents/
+.gemini/
+
+# Large raw video captures
+1ere_simulation_video.mp4
+*.raw
+*.bag
+
+# OS generated files
+.DS_Store
+Thumbs.db
